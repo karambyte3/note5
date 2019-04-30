@@ -1,0 +1,51 @@
+.create-note {
+    width: 300px;
+    background-color: rgb(255, 255, 255) !important;
+    color: #028090 !important;
+    margin: 5% auto;
+}
+
+.create-note .btn {
+    color: #028090;
+    border-color: #028090 !important;
+}
+
+.create-note .btn:hover {
+    background-color: #028090 !important;
+    color: #ffffff !important;
+}
+
+.create-note input, textarea {
+    color: #028090 !important;
+    border-color: #028090 !important;
+    resize: none !important;
+}
+
+.create-note ::placeholder {
+    color: #028090 !important;
+}
+
+.create-note textarea {
+    height: 150px !important;
+}
+
+.create-note .delete-note {
+    color: #e73751;
+    border-color: #e73751 !important;
+}
+
+.create-note .delete-note:hover {
+    background-color: #e73751 !important;
+    color: #ffffff !important;
+}
+
+.note {
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+}
+
+.notes {
+    text-align: center;
+    margin: 0 !important;
+}

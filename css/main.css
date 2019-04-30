@@ -1,3 +1,14 @@
+hr {
+    /* border-color: #028090 !important; */
+    border: 1px solid #05668da6 !important;
+    border-radius: 100px;
+}
+
+.row {
+    width: 100%;
+    margin: 0 auto !important;
+}
+
 .btn:focus, .btn:active {
     outline: none !important;
     box-shadow: none !important;
@@ -7,67 +18,91 @@
     outline: none !important;
     box-shadow: none !important;
 }
-
-
-
 .alert {
     width: 500px;
     text-align: center;
     margin: 0px auto;
-    background-color: #ff0000bd;
-    color: white;
+    background-color: #e7375185 !important;
+    color: rgb(255, 255, 255) !important;
+    border: 0px !important;
 }
 
 /* NAVIGATION */
 
-.navbar .nav-link {
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
+body {
+    background-image: linear-gradient(to right bottom, #00a896, #00a197, #009997, #009296, #008a94, #008593, #007f92, #007a90, #007590, #00708f, #006b8e, #05668d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.dropdown {
-    width: 100%;
-    margin-right: 50px;
-    background-color: rgba(255, 255, 255, 0.774);
-    color: #000;
-    border-radius: 5px;
-    transition: 1s;
+.navbar {
+    border-bottom: 1px solid linear-gradient(to right top, #f0f3bd, #a6d4aa, #60b2a4, #1e8d9e, #05668d);
+    margin: 0 25%;
+    text-align: center !important;
 }
 
-.dropdown:hover .btn{
-    background-color: rgb(34, 111, 84);
-    color: #fff;
-    transition: 0.3s;
-    border: 1px solid rgb(255, 255, 255);
+.nav-link {
+    color: #ffffffec !important;
+    transition: .3s;
 }
 
-
-
-.dropdown-menu a:active {
-    background-color: #226F54;
-    color: black;
+.nav-link:hover {
+    color: #ffffff !important;
+    transition: all .3s;
 }
 
-.dropdown-menu a:hover {
-    background-color: rgba(34, 111, 84, 0.144);
-    color: black;
+.navbar-brand {
+    font-size: 32px !important;
+    color: #ffffffec !important;
 }
 
-.dropdown-menu a{
-    /* background-color: gray; */
-    color: black;
+.navbar-brand:hover {
+    color: #ffffff !important;
+    transition: ease-in-out .3s;
 }
 
-.show .dropdown-menu {
-    padding-top: 0;
-    padding-bottom: 0;
+.nav-border {
+    background-color: #ffffffec !important;
+    height: 1px;
+    padding: 1px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* LOGIN AND REGISTER STYILE */
+
+  .form-sign {
+    /* display: block; */
+    width: 250px;
+    margin: 50px auto;
+    text-align: center;
+    color: #ffffff !important;
 }
 
-.show {
-    width: 100%;
-    padding: 0;
+.form-sign input{
+    margin: 10px 0;
 }
 
-.profile-btn {
-    margin-right: 100px;
+.form-sign a {
+    color: #273043 !important;
+}
+
+input {
+    background-color: #ffffff00 !important;
+    color: #ffffff !important;
+}
+
+input::placeholder {
+    color: #ffffffc2 !important;
+}
+
+.form-sign .btn {
+    background-color: #ffffffd7 !important;
+    color: #006b8e !important;
+}
+
+.form-sign .btn:hover {
+    background-color: #ffffff !important;
+    color: #006b8e !important;
 }

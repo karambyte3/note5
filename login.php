@@ -7,7 +7,7 @@ include("validateLogin.php");
 
 
     <div class="container">
-      <form class="form-signin" method="post" action="login.php">
+      <form class="form-sign" method="post" action="login.php">
         <h2>Please Log in</h2>
         <label for="inputUsername" class="sr-only">Username</label>
         <input type="text" id="inputUsername" name="username" class="form-control" placeholder="Username" autofocus>
