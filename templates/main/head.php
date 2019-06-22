@@ -6,7 +6,6 @@ if(!isset($_SESSION)){
 
 // connect to the database
 $db = mysqli_connect('localhost', 'root', '', 'note5');
-
 ?>
 
 <!DOCTYPE html>

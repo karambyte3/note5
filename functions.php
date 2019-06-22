@@ -10,9 +10,10 @@ function createNote() {
   if (isset($_POST["create-note"])) {
     $noteName = $_POST['note-name'];
     $noteText = $_POST['note-text'];
+    $username = $_SESSION['username'];
   
     $newNote = "INSERT INTO `notes` (`note_name`, `note_text`) VALUES ('". $noteName ."', '". $noteText ."')";
-    
+    // $newNote = "INSERT INTO `notes` (`note_name`, `note_text`, `created_by`) VALUES ('". $noteName ."', '". $noteText ."' , '". $username ."')";
     mysqli_query($db, $newNote);
   }
 };
